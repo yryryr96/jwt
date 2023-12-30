@@ -14,7 +14,7 @@ public class MyFilter3 implements Filter {
 
         HttpServletRequest req = (HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
-        System.out.println("필터3");
+        System.out.println("필터3!!");
 
         // 토큰 'cos'를 만들어줘야 한다. id,pw가 정상적으로 들어와서 로그인이 완료되면 토큰을 만들고 반환
         // 요청할 때 마다 Authorization header에 토큰 값을 value로 담아서 요청
