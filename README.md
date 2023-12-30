@@ -8,5 +8,4 @@
 - Spring Security
 - JPA
 - Java 17
-- Mustache
 - MySQL
